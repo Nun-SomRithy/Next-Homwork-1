@@ -27,6 +27,7 @@ export default function Movie() {
             })
     }, []);
 
+
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);

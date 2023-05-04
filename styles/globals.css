@@ -15,3 +15,20 @@
     background-color: whitesmoke;
 }
 
+.img-style{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80px;
+}
+
+[role="cell"],
+[role="columnheader"]{
+  font-size: 25px;
+    font-family: 'Eczar', serif;
+}
+
+.bg-cl{
+  background-color: whitesmoke;
+  font-family: 'Eczar', serif;
+}

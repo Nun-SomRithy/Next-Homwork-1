@@ -24,13 +24,15 @@ export default function NavBarComponent() {
               <Link href='/' className='nav-link text-light'>
                 Home
               </Link>
-
               <Link href='/about' className='nav-link text-light'>
                 About Us
               </Link>
 
               <Link href='/movie' className='nav-link text-light'>
                 Movies
+              </Link>
+              <Link href='/product' className='nav-link text-light'>
+                Product
               </Link>
             </Nav>
 

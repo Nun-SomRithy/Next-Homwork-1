@@ -45,11 +45,6 @@ export async function getServerSideProps(context) {
 
   if (!movies) {
     console.log("Error");
-    return {
-      props: {
-        movies: [],
-      }
-    }
   }
 
   return {
