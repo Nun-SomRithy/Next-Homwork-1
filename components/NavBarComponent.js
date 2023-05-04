@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from "react-bootstrap/Button";
+import Image from "next/image";
 
 export default function NavBarComponent() {
   return (
@@ -11,10 +12,10 @@ export default function NavBarComponent() {
       <Navbar className={'bg-danger '} >
         <Container>
           <Navbar.Brand href="#home">
-            <img
+            <Image
               src="https://www.nicepng.com/png/full/84-847341_bower-logo-bower-png.png"
-              width="50"
-              height="50"
+              width={50}
+              height={50}
               className="d-inline-block align-top "
               alt="React Bootstrap logo"
             />

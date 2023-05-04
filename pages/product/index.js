@@ -3,6 +3,7 @@ import DataTable from 'react-data-table-component';
 import {useEffect,useState} from "react";
 import Button from "react-bootstrap/Button";
 import {Form, Modal} from "react-bootstrap";
+import Image from "next/image";
 
 export default function ProductList({}){
 
@@ -31,7 +32,8 @@ export default function ProductList({}){
         {
             name : "Photo",
             selector : (row) => row.images,
-            cell : row => (<img src={row.images[0]}   className={'img-style'}  alt={"thumbnail"}/>)
+            cell : row => (<Image src={row.images[0]}   className={'img-style'}  alt={"thumbnail"}  width={50}
+                                  height={50}/>)
         },
         {
             name : "Action",

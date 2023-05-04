@@ -25,7 +25,7 @@ export default function Movie() {
                 const video=data.results[0].key;
                 setVideo(video)
             })
-    }, []);
+    }, [id]);
 
 
     const [show, setShow] = useState(false);
